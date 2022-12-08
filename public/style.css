@@ -2676,3 +2676,8 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.copyright-text a {
+  color: white;
+  margin-left: 12px;
+}
