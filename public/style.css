@@ -21,10 +21,30 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 50%;
   height: 100%;
   pointer-events: none;
   transform-style: preserve-3d;
+}
+
+.code {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 80%;
+  overflow-y: scroll;
+}
+
+.code > h3 {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.code > img {
+  width: 100%;
+  object-fit: contain;
 }
 
 .trigger:active ~ .monitor .vr_layer_item {
